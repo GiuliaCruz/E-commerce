@@ -157,7 +157,7 @@ header.sticky{
     font-size: 28px;
     text-transform: capitalize;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .center-text span{
@@ -179,4 +179,49 @@ header.sticky{
     width: 100%;
     height: auto;
     transition: all .40s;
+}
+
+.row img:hover{
+    transform: scale(0.9);
+}
+
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 24px;
+}
+
+.heart-icon:hover{
+    color: #ee1c47;
+}
+
+.ratting i{
+    color: #ff9c00;
+    font-size: 18px;
+}
+
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.price p{
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
 }
