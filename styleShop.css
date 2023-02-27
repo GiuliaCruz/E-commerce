@@ -86,14 +86,6 @@ section{
     font-weight: 500;
 }
 
-.main-text h1{
-    color: black;
-    font-size: 65px;
-    text-transform: capitalize;
-    line-height: 1.1;
-    font-weight: 600;
-    margin: 6px 0 10px;
-}
 .main-text p{
     color: #333c56;
     font-size: 20px;
