@@ -68,13 +68,13 @@ header{
 }
 
 section{
-    padding: 10% 10%;
+    padding: 5% 5%;
 }
 
 .page-header{
     width: 100%;
     height: 50vh;
-    background-image: url("img/wp3250283.webp");
+    background-image: url("img/1044851.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -94,47 +94,6 @@ section{
     font-size: 18px;
     font-style: normal;
     margin-bottom: 20px;
-}
-
-.main-btn{
-    display:inline-block;
-    color: #111;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: capitalize;
-    border: 2px solid #111;
-    padding: 12px 25px;
-    transition: all .42s ease;
-}
-
-.main-btn:hover{
-    background-color: black;
-    color: white;
-}
-
-.main-btn i {
-    vertical-align: middle;
-}
-
-.down-arrow{
-    position: absolute;
-    top: 85%;
-    right:11%;
-}
-
-.down i{
-    font-size: 25px;
-    color: #2c2c2c;
-    border: 2px solid #2c2c2c;
-    border-radius: 50px;
-    padding: 10px 10px;
-}
-
-.down i:hover{
-    background-color: black;
-    color: white;
-    transition: all .42s ease;
-
 }
 
 header.sticky{
@@ -171,22 +130,6 @@ header.sticky{
     width: 100%;
     height: auto;
     transition: all .40s;
-}
-
-.client-reviews{
-    background-color: #F3F4F6;
-}
-
-.reviews{
-    text-align: center;
-}
-
-.reviews h3{
-    color: #111;
-    font-size: 25px;
-    text-transform: capitalize;
-    text-align: center;
-    font-weight: 700;
 }
 
 .row img:hover{
@@ -234,27 +177,22 @@ header.sticky{
     font-weight: 600;
 }
 
-.reviews img{
-    width: 150px;
-    height: auto;
-    border-radius: 50px;
-    margin: 10px 0;
+#pagination{
+    text-align: center;
 }
 
-.reviews p{
-    color: #707070;
+.trending-products a{
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color:#ee1c47;
+    font-weight: 800;
+}
+
+.trending-products a i{
     font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    margin-bottom: 10px;
-}
-
-.reviews h2{
-    font-size: 22px;
-    color: #000;
-    font-weight: 400;
-    text-transform: capitalize;
-    margin-bottom: 2px;
+    font-weight: 600;
 }
 
 .contact{
